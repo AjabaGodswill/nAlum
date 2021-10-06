@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>nAlumni-Login</title>
+    <link rel="stylesheet" href="./forms.css">
+</head>
+<body>
+   <main>
+       <div class="box">
+           <div class="inner-box">
+               <div class="forms-wrap">
+                    <form action="index.html" autocomplete="off" class="sign-in-form">
+                        <div class="logo">
+                            <a href="../index.html"><img src="./img/logo.png" alt="nAlumni"></a>
+                        </div>
+                        <div class="heading">
+                            <h2>Welcome Back</h2>
+                            <h6>Not registered yet?</h6>
+                            <a href="#" class="toggle">Sign up</a>
+                        </div>
+
+                        <div class="google-links">
+                            <a href="#"><i class="fab fa-google"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="actual-form">
+                            <div class="input-wrap">
+                                <input type="email"
+                                class="input-field"
+                                autocomplete="off" 
+                                    required/>
+                                <label for="name">Email</label>
+                            </div>
+                            <div class="input-wrap">
+                                <input type="password"
+                                class="input-field"
+                                autocomplete="off"
+                                required/>
+                                <label for="pass">Password</label>
+                            </div>
+                            <input type="submit" value="sign In" class="sign-btn">
+                            <p class="text">
+                                Forgotten password or log in details?
+                                <a href="#">Get help</a> signing in
+                            </p>
+                        </div>
+                    </form>
+                    <form action="index.html" autocomplete="off" class="sign-up-form">
+                        <div class="logo">
+                            <img src="./img/logo.png" alt="nAlumni">
+                        </div>
+                        <div class="heading">
+                            <h2>Get Started</h2>
+                            <h6>Already have an account??</h6>
+                            <a href="#" class="toggle">Sign in</a>
+                        </div>
+                        <div class="actual-form">
+                            <div class="input-wrap">
+                                <input type="text"
+                                class="input-field"
+                                autocomplete="off" 
+                                    required/>
+                                <label for="name">First Name</label>
+                            </div>
+                            <div class="input-wrap">
+                                <input type="text"
+                                class="input-field"
+                                autocomplete="off" 
+                                    required/>
+                                <label for="name">Last Name</label>
+                            </div>
+                            <div class="input-wrap">
+                                <input type="email"
+                                class="input-field"
+                                autocomplete="off" 
+                                    required/>
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-wrap">
+                                <input type="text"
+                                class="input-field"
+                                autocomplete="off" 
+                                    required/>
+                                <label for="password">Password</label>
+                            </div>
+                            <div class="input-wrap">
+                                <input type="number"
+                                class="input-field"
+                                autocomplete="off"
+                                required/>
+                                <label for="phone">Phone Number</label>
+                            </div>
+                            <div class="input-wrap">
+                                <input type="text"
+                                class="input-field"
+                                autocomplete="off" 
+                                />
+                                <label for="text">Website(optional)</label>
+                            </div>
+                            <input type="submit" value="Sign Up" class="sign-btn">
+                        </div>
+                    </form>
+               </div>
+               <div class="carousel">
+                
+                    <div class="images-wrapper">
+
+                        <div id="carouselExampleSlidesOnly" class=" slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                              </div>
+
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./img/undraw_programming_2svr.svg" class="d-block w-100" alt="...">
+                                <h3>Welcome to </h3>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./img/undraw_product_iteration_kjok.svg" class="d-block w-100" alt="...">
+                                <h3>Gain experience from others</h3>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./img/undraw_Social_friends_re_7uaa.svg" class="d-block w-100" alt="...">
+                                <h3>Get answers faster</h3>
+                              </div>
+                            </div>
+                          </div>
+                  
+                   </div>
+          
+
+                    </div>
+               </div>
+           </div>
+       </div>
+   </main> 
+
+   <!-- Javscript file -->
+
+<script src="./app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+
+</body>
+</html>
